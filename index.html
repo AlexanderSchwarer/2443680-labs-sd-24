@@ -10,30 +10,46 @@
   	list-style: none;
   	margin: 0; 
   	background: #1a1a1a;
+	justify-content: space-evenly;
 	}
-	.navigation a {
-  	text-decoration: none;
-  	display: block;
-  	color: white;
-	padding: 5px;
-	justify-content: flex-end;
+	options {
+  		display: flex
+		justify-content: flex-end;
+		flex-flow: row wrap;
+  		list-style: none;
+  		margin: 0; 
+  		background: #1a1a1a;
 	}
-	.navigate h {
-		justify-content: flex-start;
-		color: white;
-		display: block;
-		text-decoration: none;
-		font-weight: bold;
+	o {
+		color: white
+		padding: 5px
+		display: block
+	}
+	header {
+		display: flex
+		justify-content: center;
+		flex-flow: row wrap;
+  		list-style: none;
+  		margin: 0; 
+  		background: #1a1a1a;
+	}
+	h { 
+		color: white
+		padding: 5px
+		display: block
+		font-weight: bold
+	}
 	</style>
 </head>
 <body>
-    <ul class="navigation">
-	<li><h href="#">Welcome</h></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <ul class="navigator">
+	    <li class="header">
+		    <h>Welcome</h>
+	    </li>
+	    <li class="options">
+		    <o>working?</o>
+	    </li>
+    </ul>
     
 </body>
 </html>
