@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>lab-two</title>
+    <style>
+    .navigation {
+  	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-end;
+  
+  	list-style: none;
+  	margin: 0; 
+  	background: deepskyblue;
+	}
+	</style>
+</head>
+<body>
+    <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    
+</body>
+</html>
